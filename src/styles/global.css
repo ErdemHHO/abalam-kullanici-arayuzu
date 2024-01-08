@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Serif", serif !important;
+  color: #000;
+  background-color: #fff !important;
+}
+
+h2 {
+  color: #f08d06 !important;
+  margin-bottom: 10px !important;
+}
+
+h5 {
+  color: #ffffff !important;
+  font-weight: bolder !important;
+}
+
+.main {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+
+/************** ERROR AND NOT FOUND **************/
+
+.error{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/************** LOADING ANIMATION **************/
+
+.loadingCom{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 2000px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #056DB4;
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+/* slick-arrows.css dosyasında arrowların stilini değiştirme */
+
+/* Sol arrow stilini değiştirme */
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+.slick-prev:before {
+  color: white; /* Arrow simgesinin rengi */
+  border-radius: 20%; /* Sol arrowın dışını ovallendirmek için border-radius */
+}
+.slick-prev:hover:before {
+  color: #fff; /* Arrow simgesinin hover rengi */
+}
+.slick-prev.slick-disabled:before {
+  opacity: 0.25; /* Devre dışı arrow simgesinin opaklığı */
+}
+
+/* Sağ arrow stilini değiştirme */
+.slick-next {
+  right: 10px;
+  z-index: 1;
+}
+.slick-next:before {
+  color: white; /* Arrow simgesinin rengi */
+  border-radius: 20%; /* Sağ arrowın dışını ovallendirmek için border-radius */
+}
+.slick-next:hover:before {
+  color: #fff; /* Arrow simgesinin hover rengi */
+}
+.slick-next.slick-disabled:before {
+  opacity: 0.25; /* Devre dışı arrow simgesinin opaklığı */
+}
+
+/* Arrowların arka plan rengini değiştirme */
+.slick-prev:before,
+.slick-next:before {
+  background-color: #000000; /* Arrowların arka plan rengi */
+}
+
+.modal-content {
+  max-width: 100% !important;
+}
+
+.link-without-underline {
+  text-decoration: none !important;
+}
+
+/**********************************/
+/*********** Contact **********/
+/**********************************/
+
+.contact {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.contact .col-md-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact .col-md-6:first-child {
+  background: #009bd3;
+}
+
+.contact .col-md-6:last-child {
+  background: #ff9500;
+}
+
+.contact .contact-info {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.contact .contact-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  border: 1px solid rgba(256, 256, 256, 0.2);
+}
+
+.contact .contact-item [class^="flaticon-"]::before {
+  margin: 0;
+  color: #fdbe33;
+  font-size: 40px;
+}
+
+.contact .contact-text {
+  position: relative;
+  width: auto;
+  padding-left: 20px;
+}
+
+.contact .contact-text h2 {
+  color: #fdbe33;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact .contact-text p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.contact .contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact .contact-form {
+  position: relative;
+  padding: 0 15px;
+}
+
+.contact .contact-form input {
+  color: #ffffff;
+  height: 40px;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.4);
+  background: transparent;
+}
+
+.contact .contact-form textarea {
+  color: #ffffff;
+  height: 185px;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: rgba(256, 256, 256, 0.4);
+  background: transparent;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea {
+  box-shadow: none;
+}
+
+.contact .contact-form .form-control::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.contact .contact-form .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.contact .contact-form .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.contact .contact-form .btn {
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fdbe33;
+  background: #030f27;
+  border: none;
+  border-radius: 0;
+  transition: 0.3s;
+}
+
+.contact .contact-form .btn:hover {
+  color: #030f27;
+  background: #ffffff;
+}
+
+.contact .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.contact-icon {
+  color: #fff;
+}
+
+/**************** Sidebar CSS *****************/
+.list-item:hover {
+  color: #ffffff !important;
+  background-color: #f08d06 !important;
+}
+
+/* 
+.list-item{
+  width: 100%;
+} */
